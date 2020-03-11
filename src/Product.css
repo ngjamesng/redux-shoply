@@ -1,0 +1,18 @@
+.Product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Product-info {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  width: 40%;
+}
+
+.Product-btns {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

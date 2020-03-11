@@ -6,17 +6,21 @@ import Inventory from './Inventory';
 import Cart from './Cart';
 
 import './App.css';
+import ProductDetails from './ProductDetails';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Route exact to='/'>
+      <Route exact path='/'>
         <Inventory />
       </Route>
-      {/* <Route exact to='/cart'>
+      <Route exact path='/cart'>
         <Cart />
-      </Route> */}
+      </Route>
+      <Route exact path='/products/:id'>
+        <ProductDetails />
+      </Route>
     </div>
   );
 }

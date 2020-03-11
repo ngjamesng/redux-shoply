@@ -1,0 +1,21 @@
+.ProductDetails {
+  max-height: 30%;
+}
+
+.ProductDetails-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btns-increment-decrement {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btns-add-remove {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
